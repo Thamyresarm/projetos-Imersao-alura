@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+
+  <div class="form-wrapper">
+    <p class="page-subtitle">Nome Jogador:
+      <input type="text" id="nomeJogador" name="NomeJogador" placeholder="Insira o nome do Jogador">
+      Link da Imagem:
+      <input type="text" id="imagem" name="imagem" placeholder="Insira endereço de imagem"> <button onClick="adicionarJogador()">Adicionar</button>
+    </p>
+  </div>
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Foto</th>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="3">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores" class="listafotos">
+      <!--       <tr>
+        <td>Paulo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr> -->
+    </tbody>
+  </table>
+  <div class="form-wrapper">
+    <button onClick="limparTabuleiro()">Nova Rodada</button>
+    <button onClick="limparJogadores()">Novo Jogo</button>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
