@@ -59,6 +59,9 @@ function adicionarFilme() {
   } else {
     alert("Preencha todos os campos");
   }
+
+  console.log(vetorListaFilmes);
+  console.log(vetorListaNomesFilmes);
 }
 function removerFilme() {
   nomeFilme = document.getElementById("nomeFilme").value; //pegando nome do filme
@@ -68,13 +71,21 @@ function removerFilme() {
   for (let i = 0; i < vetorListaFilmes.length; i++) {
     if (nomeFilme == vetorListaNomesFilmes[i] && link == vetorListaFilmes[i]) {
       exist = 1;
+      var indice = i;
     }
   }
 
   if (exist == 1) {
-    vetorListaFilmes.pop(link);
-    vetorListaNomesFilmes.pop(nomeFilme);
+    vetorListaFilmes.splice(indice, 1);
+    vetorListaNomesFilmes.splice(indice, 1);
     carregarItensPagina();
+
+    console.log(vetorListaFilmes);
+    console.log(vetorListaNomesFilmes);
+
+    document.getElementById("filme").value = "";
+    document.getElementById("nomeFilme").value = "";
+
     exist = 0; // resetando a variavel de verificação
   } else {
     alert("Filme não encontrado na lista");
