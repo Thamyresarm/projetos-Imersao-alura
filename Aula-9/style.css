@@ -6,16 +6,17 @@ body {
 }
 
 .container {
+  display: flex;
   background: #F7F7F7;
   margin: 64px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0E1D2F;
   color: #1C1C1C;
   padding: 64px;
+  flex-direction: column;
 }
 
 .perfil {
-  display: flex;
   align-items: center; 
 }
 
@@ -31,7 +32,7 @@ body {
 
 .titulo h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 .titulo h3 {
@@ -46,16 +47,33 @@ body {
 
 .projetos ul {
   font-weight: 700;
-  font-size: 48px;
+  font-size:20px;
 }
 
 .projetos li{
   list-style: none;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 .projetos a{
   text-decoration: none;
 }
 
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px; 
+  }
+
+.contato h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #68B684;
+}
+
+.contato img {
+  max-height: 50px;
+  max-width: 50px;
+}
