@@ -66,6 +66,16 @@ h2 {
   margin: 20px 10px;
 }
 
+.resultado-final {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: black;
+}
+
 .opcoes {
   color: white;
 }
