@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    180deg,
+    #ffb8eb 0,
+    #ffafe6 16.67%,
+    #ffa7df 33.33%,
+    #f29dd5 50%,
+    #db93ca 66.67%,
+    #c58bc0 83.33%,
+    #b283b6 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  background: #f7f7f7;
+  margin: 32px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 50px;
+  flex-direction: column;
+  min-width: 270px;
+  align-self: center;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-foto {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos ul {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.projetos a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.contato h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #68b684;
+}
+
+.contato img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
