@@ -1,12 +1,12 @@
-# CERTIFICARD
+# SUPER TRUNFO 2
 
 Repositório com a evolução de todos os projetos aprendidos na Imersão Alura
 
-🔗[Clique aqui para acessar](https://thamyresarm.github.io/projetos-Imersao-alura/Aula-9/index.html)
+ 🔗[Clique aqui para acessar](https://thamyresarm.github.io/projetos-Imersao-alura/Aula-8/index.html)
 
 > Resultado
 
-![image](https://user-images.githubusercontent.com/24790794/192309596-bb00fce5-fb45-445a-aeda-017193732cf2.png)
+![image](https://user-images.githubusercontent.com/24790794/192321417-9d6bdecf-d320-459b-bbe2-0c527a1a03a9.png)
 
 ## 🛠️Ferramentas Utilizadas
 
