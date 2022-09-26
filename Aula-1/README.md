@@ -1,6 +1,6 @@
 # CALCULADORA
 
-🔗[Clique aqui para acessar](![image](https://user-images.githubusercontent.com/24790794/192318346-418a05e0-4b2e-4886-b968-7b26c4ef4ea2.png))
+🔗[Clique aqui para acessar](https://thamyresarm.github.io/projetos-Imersao-alura/Aula-1/calculadora-de-media.html)
 
 > Resultado
 
