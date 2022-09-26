@@ -4,7 +4,7 @@
 
 > Resultado
 
-![image](![image](https://user-images.githubusercontent.com/24790794/192318569-41136c01-e2a6-4f1f-bd0a-a517943ad13c.png))
+![image](https://user-images.githubusercontent.com/24790794/192318652-a2267bdd-3a57-44e0-8ba5-ad0f59ddd9b9.png)
 
 ## 🛠️Ferramentas Utilizadas
 
